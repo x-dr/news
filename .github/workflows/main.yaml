@@ -39,5 +39,5 @@ jobs:
       #   uses: elgohr/Github-Release-Action@master
       #   env:
       #     GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        with:
-          args: news
+        # with:
+        #   args: news
