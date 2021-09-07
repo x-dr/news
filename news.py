@@ -12,7 +12,6 @@ from zhdate import ZhDate
 tx_key = os.environ['KEY']
 
 
-
 #背景
 
 def bgimg():

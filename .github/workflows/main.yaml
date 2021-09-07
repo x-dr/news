@@ -21,6 +21,8 @@ jobs:
       - name: 'Install requirements'
         run: pip install -r ./requirements.txt
       - name: 'Working'
+        env:
+          KEY: ${{secrets.KEY}}
         timeout-minutes: 360
         run: bash ./main.sh
       - name: Commit files
