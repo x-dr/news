@@ -162,7 +162,7 @@ def historyList():
 def save_img(img):
     # img.show()
 
-    img_path = os.path.join('.', 'outpic', 'png_paste.png')
+    img_path = os.path.join('.', 'outpic', 'news.png')
     img.save(img_path)
     print('保存成功 at {}'.format(img_path))
     # img.save("./draw_img.png")

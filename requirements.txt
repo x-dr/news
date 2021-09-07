@@ -1,3 +1,4 @@
 pillow
 requests
 zhdate
+cn2an
